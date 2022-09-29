@@ -4,12 +4,8 @@ import React from 'react';
 const Main = () => {
     return (
         <div className='home-page'>
-            <div className='home-right'>
-                frontend developer
-            </div>
-            <div className='home-left'>
-                ui/ux engineer
-            </div>
+            <div>frontend developer | ui/ux engineer</div>
+            <div>about | projects | contact</div>
         </div>
     )
 }
