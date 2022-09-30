@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rock+Salt&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
 
 .App {
   text-align: center;
@@ -15,54 +16,6 @@ body {
   overflow-x: hidden;
 }
 
-.NavBar {
-  position: absolute;
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  align-items: center;
-  padding: 16px;
-  display: flex;
-  color: black;
-  width: 100%;
-  position: fixed;
-  z-index: 1001;
-  top: 0;
-  box-shadow: 0 8px 6px -6px #646464;
-  background-color: #efe6d9;
-}
-
-.nav-links {
-  box-sizing: border-box;
-  margin: 0px;
-  min-width: 0px;
-  display: flex;
-  margin-right: 20px;
-}
-
-.NavBar a,
-.logo {
-  text-decoration: none;
-  position: relative;
-  margin-bottom: 0px;
-  padding-bottom: 5px;
-  color: inherit;
-  transition: all 0.4s ease 0s;
-  cursor: pointer;
-  margin-right: 10px;
-  letter-spacing: 2px;
-  font-size: 0.8rem;
-}
-
-.logo {
-  text-transform: uppercase;
-  margin-left: 20px;
-}
-
 body {
   background: #efe6d9;
 }
@@ -74,9 +27,14 @@ body {
   width: 450px;
   height: 450px;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.home-page div {
+.heading,
+.nav {
   text-transform: uppercase;
   margin-left: 20px;
   letter-spacing: 2px;
@@ -86,76 +44,19 @@ body {
   color: #c4a484;
 }
 
-.home-page:nth-child(2) {
+.line {
+  width: 105px;
+  height: 1px;
+  background: #c4a484;
+}
+
+.nav {
   position: relative;
-  top: 387px;
+  margin-bottom: 9px;
 }
 
-.home-left,
-.home-right,
-.aboutme-left,
-.aboutme-right,
-.projects-right,
-.contact-left {
-  letter-spacing: 2px;
-  position: relative;
-  font-weight: bolder;
-}
-
-.home-left,
-.home-right {
-  font-size: 54px;
-}
-
-.home-right {
-  left: 264px;
-  color: #efe6d9;
-}
-
-.aboutme-left,
-.contact-left {
-  right: 152px;
-}
-
-.home-left,
-.aboutme-left,
-.contact-left {
-  color: #c4a484;
-}
-
-.home-left {
-  right: 205px;
-}
-
-.aboutme-page,
-.contact-page {
-  margin-bottom: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.aboutme-title,
-.contact-title {
-  font-size: 54px;
-  position: relative;
-}
-
-.aboutme-title {
-  left: 68px;
-}
-
-.contact-title {
-  left: 49px;
-}
-
-.aboutme-summary,
-.contact-summary {
-  font-size: 24px;
-  position: relative;
-  width: 500px;
-  right: 55px;
-  text-align: right;
+.body-div {
+  font-family: "Gilda Display", serif;
 }
 
 .projects-page {
