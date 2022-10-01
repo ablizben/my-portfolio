@@ -9,7 +9,13 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <div className="App">
-      <Main />
+      <div className="home-page">
+        <div className="heading">frontend developer | ui/ux engineer</div>
+        <div className="line"></div>
+          <Main />
+        <div className="line"></div>
+       <div className="nav">about | projects | contact</div>
+      </div>
     </div>
   );
 }

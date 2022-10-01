@@ -44,6 +44,11 @@ body {
   color: #c4a484;
 }
 
+.name {
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
 .line {
   width: 105px;
   height: 1px;
@@ -57,6 +62,16 @@ body {
 
 .body-div {
   font-family: "Gilda Display", serif;
+}
+
+.aboutme-summary,
+.contact-summary {
+  font-family: "Gilda Display", serif;
+  font-weight: 600;
+}
+
+.aboutme-summary {
+  padding: 25px;
 }
 
 .projects-page {
@@ -97,11 +112,11 @@ body {
 }
 
 .card-content {
+  margin-top: 109px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  padding: 20px;
+  width: 215px;
 }
 
 .card-content a {
@@ -114,10 +129,19 @@ body {
   font-size: 20px;
 }
 
+.card-title,
+.card-text {
+  font-family: "Gilda Display", serif;
+}
+
+.card-text {
+  padding: 5px;
+}
+
 .project-code {
   display: block;
   margin-bottom: 4px;
-  color: #738a94;
+  color: #c4a484;
   font-size: 12px;
   line-height: 1.15em;
   font-weight: 500;
