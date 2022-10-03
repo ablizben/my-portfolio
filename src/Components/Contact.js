@@ -6,11 +6,11 @@ const Contact = () => {
         <div>
             <div className="contact-summary">
                 <br />
-                linkedin: abby-benjamin 
+                linkedin: <a href="https://www.linkedin.com/in/abby-benjamin/">abby-benjamin</a>
                 <br />
-                github: ablizben
+                github: <a href="https://github.com/ablizben">ablizben</a>
                 <br />
-                twitter: ablizben
+                twitter: <a href="https://twitter.com/ablizben">ablizben</a>
             </div>
         </div>
     )

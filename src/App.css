@@ -61,8 +61,8 @@ body {
   display: flex;
 }
 
+#main:hover,
 #about:hover,
-#projects:hover,
 #contact:hover {
   cursor: pointer;
   color: #000000;
@@ -82,21 +82,17 @@ body {
   padding: 25px;
 }
 
-.projects-page {
-  margin-bottom: 300px;
+.contact-summary a {
+  color: #000000;
+  text-decoration: none;
 }
 
-.projects-title {
-  font-size: 54px;
-  position: relative;
-  left: 120px;
-  color: #efe6d9;
+.contact-summary a:hover {
+  color: #c4a484;
 }
 
-.Projects {
-  padding: 15px;
-  margin: 6;
-  height: 100%;
+.contact-summary a:visited {
+  text-decoration: none;
 }
 
 #project-cards {
