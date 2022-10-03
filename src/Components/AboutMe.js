@@ -5,7 +5,7 @@ const AboutMe = () => {
     return (
         <div>
             <div className="aboutme-summary">
-                whatever title you want to give me, I just enjoy building features, products, and more with groups of cool people. 
+                i'm currently a ux/ui engineer at vultr. but whatever title you want to give me, I just enjoy building out features, products, and more, and collaborating with others who do the same.  
                 <br />
                 <br />
                 in my spare time, you can find me watching horror flicks and teaching my dog new tricks. 

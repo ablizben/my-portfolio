@@ -5,7 +5,6 @@ const Contact = () => {
     return (
         <div>
             <div className="contact-summary">
-                email: ablizben@gmail.com
                 <br />
                 linkedin: abby-benjamin 
                 <br />
