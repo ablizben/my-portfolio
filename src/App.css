@@ -58,6 +58,14 @@ body {
 .nav {
   position: relative;
   margin-bottom: 9px;
+  display: flex;
+}
+
+#about:hover,
+#projects:hover,
+#contact:hover {
+  cursor: pointer;
+  color: #000000;
 }
 
 .body-div {
