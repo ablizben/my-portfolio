@@ -33,6 +33,12 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 500px) {
+  .home-page {
+    width: 80%;
+  }
+}
+
 .heading,
 .nav {
   text-transform: uppercase;
