@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef4b07e7.css",
-    "main.js": "/static/js/main.c9ebbce6.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.ef4b07e7.css.map": "/static/css/main.ef4b07e7.css.map",
-    "main.c9ebbce6.js.map": "/static/js/main.c9ebbce6.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/www.abbybenjamin.com/static/css/main.ef4b07e7.css",
+    "main.js": "/www.abbybenjamin.com/static/js/main.da904c8b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/www.abbybenjamin.com/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/www.abbybenjamin.com/index.html",
+    "main.ef4b07e7.css.map": "/www.abbybenjamin.com/static/css/main.ef4b07e7.css.map",
+    "main.da904c8b.js.map": "/www.abbybenjamin.com/static/js/main.da904c8b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/www.abbybenjamin.com/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef4b07e7.css",
-    "static/js/main.c9ebbce6.js"
+    "static/js/main.da904c8b.js"
   ]
 }
