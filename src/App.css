@@ -33,6 +33,11 @@ body {
   justify-content: space-between;
 }
 
+svg {
+  height: 34px;
+  width: 50px;
+}
+
 @media (max-width: 500px) {
   .home-page {
     width: 80%;
